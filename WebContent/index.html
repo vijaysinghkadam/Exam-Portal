@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Student Registration</h1>
+<form action="" id="studentForm">
+  First name:
+  <input type="text" name="firstname">
+  <br>
+  Last name:
+  <input type="text" name="lastname">
+  <br>
+  Date of Birth:
+  <input type="date" name="dob">
+  <br>
+  Email Id:
+  <input type="text" name="emailId" maxlength=100>
+  <br>
+  Mobile No:
+  <input type="text" name="mobileNo" maxlength=10>(max length 10)
+  <br>
+  Gender:
+  <input type="radio" name="Gender" value="male">Male
+  <input type="radio" name="Gender" value="female">Female
+  <br>
+  Address:<br>
+	<textarea rows="4" cols="40" form="studentForm">Enter address here...</textarea>
+  <br>
+  City:
+  <input type="text" name="city">
+  <br>
+  Pin Code:
+  <input type="number" name="pinCode" maxlength=6>(max length is 6)
+  <br>
+  State:
+  <input type="text" name="state">
+  <br>
+  Country:
+  <input type="text" name="country">
+  <br>
+  Hobbies:
+  <input type="radio" name="singing">Singing
+  <input type="radio" name="dancing">Dancing
+  <input type="radio" name="drawing">Drawing<br>
+  <input type="radio" name="others">Others<input type="text" name="othersText">
+  <br>
+  Education:
+
+	<table>
+	 
+	<tr>
+	<td align="center"><b>Sl.No.</b></td>
+	<td align="center"><b>Examination</b></td>
+	<td align="center"><b>Board</b></td>
+	<td align="center"><b>Percentage</b></td>
+	<td align="center"><b>Year of Passing</b></td>
+	</tr>
+	 
+	<tr>
+	<td>1</td>
+	<td>Class X</td>
+	<td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+	<td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+	<td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+	</tr>
+	 
+	<tr>
+	<td>2</td>
+	<td>Class XII</td>
+	<td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+	<td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+	<td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+	</tr>
+	 
+	<tr>
+	<td>3</td>
+	<td>Graduation</td>
+	<td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+	<td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+	<td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+	</tr>
+	 
+	<tr>
+	<td>4</td>
+	<td>Masters</td>
+	<td><input type="text" name="Masters_Board" maxlength="30" /></td>
+	<td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+	<td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+	</tr>
+	 
+	<tr>
+	<td></td>
+	<td></td>
+	<td align="center">(10 char max)</td>
+	<td align="center">(upto 2 decimal)</td>
+	</tr>
+	</table>
+	 
+	  
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
